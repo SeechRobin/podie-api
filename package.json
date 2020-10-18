@@ -5,10 +5,15 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "@sailshq/lodash": "^3.10.3",
+    "nodemailer": "^6.4.14",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "nodemailer-sendgrid": "^1.0.3",
     "sails": "^1.4.0",
+    "sails-hook-organics": "^2.2.0",
     "sails-hook-orm": "^2.1.1",
     "sails-hook-sockets": "^2.0.0",
-    "@sailshq/lodash": "^3.10.3"
+    "sails-postgresql": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "5.16.0"
